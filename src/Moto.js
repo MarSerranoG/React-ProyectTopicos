@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-export default function App() {
+export default function Moto(props) {
   return (
     <div>
-      <h1>Soy una moto</h1>
-      <img src= "https://www.formulamoto.es/wp-content/uploads/2021/08/triumph_rocket_iii_tfc.jpg" 
+      <h1>Soy una moto {props.marca}</h1>
+      <img src={props.imagen} 
       alt = "Imagen de la moto"
       width="300"
       />
