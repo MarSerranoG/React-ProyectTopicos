@@ -5,12 +5,10 @@ import Moto from './Moto';
 
 export default function App() {
   const estiloH1 = {
-    color:"Pink"
+    color:"Purple"
   };
 
   const estiloDiv= {
-
-    backgroundColor: 'Black',
     fontFamily:"Consolas"
   }
 
